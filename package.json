@@ -1,0 +1,16 @@
+{
+  "name": "nexarc",
+  "version": "0.0.1",
+  "description": "NexArc is a command line tool",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ."
+  },
+  "keywords": [],
+  "author": "BM Monjur Morshed",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.9.0"
+  }
+}
